@@ -67,12 +67,18 @@
 
     <main class="main">
       <div id="a" class="box">
-        <h4 id="welcome">Gilbert Chamber of Commerce</h4>
-        <img
-          id="landscape"
-          src="./images/wdd230-org.webp"
-          alt="Man looking over gully"
-        />
+        <picture>
+          <h4 id="welcome">Gilbert Chamber of Commerce</h4>
+          
+          <source srcset="./images/medium.webp" media="(min-width:500px) and (max-width:799px)"> 
+          <source srcset="./images/large.webp" media="(min-width:800px)"> 
+          
+          <img
+            id="landscape"
+            src="./images/small.webp"
+            alt="Man looking over gully"
+          />
+        </picture>
 
         <a class="join" target="_blank" href="./join.html">Join Us</a>
       </div>
@@ -82,7 +88,11 @@
       </div>
       <div id="c" class="box">
         <h2>Weather</h2>
-        <img id="weather" src="./images/weather-icon-illustration03-Graphics-10205167-1.jpg" alt="Weather icon" />
+        <img
+          id="weather"
+          src="./images/weather-icon-illustration03-Graphics-10205167-1.jpg"
+          alt="Weather icon"
+        />
         <p id="description"></p>
         <p>
           The current temperature in Gilbert, Arizona is
