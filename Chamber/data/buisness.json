@@ -1,0 +1,148 @@
+{
+  "businesses": [
+    {
+      "name": "All about you",
+      "streetAddress": "1592 N Tustin St c, Orange",
+      "cityStateZip": "Gilbert, AZ 85234",
+      "phoneNumber": "(480) 100-1558",
+      "websiteURL": "https://aayss.com/",
+      "imageURL": "./images/3.png",
+      "membershipLevel": "gold",
+      "alt_text": "Gecko Grill Logo",
+      "target": "_blank"
+    },
+    
+    {
+      "name": "Gecko Grill",
+      "streetAddress": "4341 E. Baseline Rd.",
+      "cityStateZip": "Gilbert, AZ 85234",
+      "phoneNumber": "(480) 539-2988",
+      "websiteURL": "https://www.geckogrillaz.com/gecko-grill-gilbert",
+      "imageURL": "./images/gecko.webp",
+      "membershipLevel": "gold",
+      "alt_text": "Gecko Grill Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "Paul Kelly Maxillofacial",
+      "streetAddress": "726 N Greenfield Rd, Suite 117",
+      "cityStateZip": "Gilbert, AZ 85234",
+      "phoneNumber": "480-685-9696",
+      "websiteURL": "https://www.paulkellymaxface.com",
+      "imageURL": "./images/kelly.webp",
+      "membershipLevel": "gold",
+      "alt_text": "Kelly Maxillofacial Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "Banner Health",
+      "streetAddress": "1900 N Higley Rd",
+      "cityStateZip": "Gilbert, AZ 85234",
+      "phoneNumber": "(480) 543-2000",
+      "websiteURL": "https://www.bannerhealth.com/",
+      "imageURL": "./images/banner.webp",
+      "membershipLevel": "gold",
+      "alt_text": "Banner Health Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "Main Event Entertainment",
+      "streetAddress": "1735 S SANTAN VILLAGE PARKWAY",
+      "cityStateZip": "Gilbert, AZ 85295",
+      "phoneNumber": "(480) 462-2200",
+      "websiteURL": "https://www.mainevent.com",
+      "imageURL": "./images/mainevent.webp",
+      "membershipLevel": "silver",
+      "alt_text": "Main Event Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "Kneaders",
+      "streetAddress": "2910 S San Tan Village Pkwy",
+      "cityStateZip": "Gilbert, AZ 85295",
+      "phoneNumber": "(480) 398-4720",
+      "websiteURL": "https://www.kneaders.com/",
+      "imageURL": "./images/kneaders.webp",
+      "membershipLevel": "silver",
+      "alt_text": "Kneaders Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "Jamba Juice",
+      "streetAddress": "1555 n. gilbert rd.ste. b-106",
+      "cityStateZip": "Gilbert, AZ 85234",
+      "phoneNumber": "(480) 632-9852",
+      "websiteURL": "https://www.jamba.com/",
+      "imageURL": "./images/jamba.webp",
+      "membershipLevel": "silver",
+      "alt_text": "Jamba Juice Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "The Habit Burger Grill",
+      "streetAddress": "2975 South Market St.",
+      "cityStateZip": "Gilbert, AZ 85295",
+      "phoneNumber": "(480) 726-2089",
+      "websiteURL": "https://www.habitburger.com/",
+      "imageURL": "./images/habit.webp",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "Gilbertaz",
+      "streetAddress": "90 E. Civic Center Drive",
+      "cityStateZip": "Gilbert, AZ 85296",
+      "phoneNumber": "(480) 503-6700",
+      "websiteURL": "https://www.gilbertaz.gov/",
+      "imageURL": "./images/webbanner-townlogo-new.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "DeBellevue Global Marketing Agency",
+      "streetAddress": "2975 South Market St.",
+      "cityStateZip": "Gilbert, AZ 85295",
+      "phoneNumber": "480.788.8999",
+      "websiteURL": "https://debellevueglobal.com/",
+      "imageURL": "./images/DeBellevue-web.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "We are san tan",
+      "streetAddress": "2975 South Market St.",
+      "cityStateZip": "Gilbert, AZ 85295",
+      "phoneNumber": "(480) 726-1114",
+      "websiteURL": "https://www.santanford.com/",
+      "imageURL": "./images/webbannerlogo-santan-ford.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "Phoeni mesa gateway airport",
+      "streetAddress": "2010 Arizona Ave",
+      "cityStateZip": "Gilbert, AZ 41295",
+      "phoneNumber": "(480) 152-2089",
+      "websiteURL": "https://www.gatewayairport.com/",
+      "imageURL": "./images/phoenixmesawebbanner.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    },
+    {
+      "name": "ASU",
+      "streetAddress": "525 S. Forest Ave., Suite 150.",
+      "cityStateZip": "Gilbert, AZ 41295",
+      "phoneNumber": "(480) 484-5768",
+      "websiteURL": "https://www.asu.edu/",
+      "imageURL": "./images/ASU-sunburst-logo.png",
+      "membershipLevel": "gold",
+      "alt_text": "Habit Logo",
+      "target": "_blank"
+    }
+  ]
+}

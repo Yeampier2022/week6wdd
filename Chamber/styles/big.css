@@ -1,0 +1,221 @@
+
+:root {
+  --bg-color: #fff9eb;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: var(--bg-color);
+    font-family: "Montserrat";
+  }
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav ul li {
+    text-align: center;
+    flex: 1;
+  }
+
+  #navbar {
+    display: flex;
+  }
+
+  .main {
+    display: grid;
+    grid-template-areas:
+      "e h h sp"
+      "w h h sp"
+      "j n n sp";
+  }
+  #a {
+    grid-area: h;
+    position: relative;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  #b {
+    grid-area: e;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  #c {
+    grid-area: w;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  #d {
+    grid-area: n;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  #j {
+    grid-area: j;
+    align-content: center;
+    position: relative;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  #spotlights {
+    grid-area: sp;
+    display: flex;
+    display: grid;
+    grid-template-areas:
+      "s1"
+      "s2"
+      "s3";
+  }
+  #hamburger-menu {
+    display: none;
+  }
+  #e {
+    grid-area: s1;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+
+  #f {
+    grid-area: s2;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  #g {
+    display: inline;
+    grid-area: s3;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  #welcome {
+    position: absolute;
+    font-size: 2.5em;
+    top: 5%;
+    left: 0%;
+    color: #264a41;
+  }
+  .join {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: var(--bg-color);
+    color: #264a41;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    align-content: center;
+    font-family: "Raleway";
+  }
+  #stats {
+    width: 800px;
+  }
+  .discover {
+    width: 800px;
+  }
+
+  .start {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: var(--bg-color);
+    color: #264a41;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    align-content: center;
+    font-family: "Raleway";
+  }
+  .join:hover {
+    background-color: #264a41;
+    color: white;
+  }
+  .start:hover {
+    background-color: #264a41;
+    color: white;
+  }
+  .main-form {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    margin-bottom: 40px;
+  }
+  .membership {
+    max-width: none;
+    height: 600px;
+    width: 600px;
+  }
+  form fieldset {
+    min-width: 40rem;
+  }
+  .images:hover {
+    border-radius: 20%;
+  }
+  .directory-list {
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+    font-size: 1.3em;
+  }
+  .font {
+    font-size: 20px;
+  }
+
+  .discover-daddy {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .member-2 {
+    font-size: 16px;
+  }
+  .submit-button {
+    margin-top: 20px;
+  }
+  .grid-1 {
+    width: 600px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  .imgthank img {
+    width: 900px;
+  }
+  .contact2 {
+    padding: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+  }
+  .contact3 {
+    margin-right: 80px;
+  }
+  .logo_foot {
+    grid-area: logo;
+    width: 100px;
+  }
+  .logom {
+    width: 50px;
+  }
+  .address-map {
+    width: 600px;
+    height: 450px;
+  }
+  .Address-h1 {
+    text-align: center;
+  }
+  .map {
+    width: 500px;
+    height: 300px;
+    margin-left: 25px;
+  }
+  .directory-cards section {
+    width: 400px;
+    height: 250px;
+  }
+}

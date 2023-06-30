@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+
+body {
+  margin: 0px;
+  box-sizing: content-box;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: large;
+}
+.title {
+  width: 100vw;
+  background-color: darkcyan;
+  margin-bottom: 20px;
+}
+h1 {
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+}
+.name {
+  justify-content: center;
+  display: flex;
+  margin: 0px;
+}
+.card-presetacion{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+}
+.card-presetacion-2{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+
+}
+.card-presetacion-3{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+
+}
+.card-p{
+  border-style: solid;
+  border-color: darkseagreen;
+}
+.card-p-2{
+  border-style: solid;
+  border-color: darkseagreen;
+}
+.card-p-3{
+  border-style: solid;
+  border-color: darkseagreen;
+}
+.nombre-card{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 5px
+}
+.title-nombre-card{
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  height: 40px;
+}
+.informacion-card{
+  background-color: beige;
+  border: 1px solid darkseagreen;
+  border-radius: 10px;
+  padding: 5px
+}
+.name-page{
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.header-likedin {
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+.botom {
+  display: grid;
+  grid-area: 1/3;
+  width: 100px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  background-color: white;
+  border: 1px solid white;
+}
+.botom2 {
+  display: grid;
+  grid-area: 1/4;
+  width: 130px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid #0a66c2;
+  background: white;
+  margin-left: 30px;
+}
+.botom2 a {
+  color: #0b4987;
+}
+.botom a {
+  color: black;
+}
+.botom:hover,
+.botom:visited:hover {
+  background-color: #f5f5f5;
+}
+.botom-2:hover,
+.botom-2:visited:hover {
+  background-color: #f0f8ff;
+}
+.now {
+  text-decoration: none;
+  align-items: center;
+  display: grid;
+  border-radius: 20vw;
+  color: black;
+  font-size: 14px;
+}
+.seccion {
+  text-decoration: none;
+  align-items: center;
+  border-radius: 20vw;
+  color: #404040;
+  padding: 10px;
+  font-size: 14px;
+}
+.header-likedin img {
+  width: 50px;
+  padding: 20px;
+}
+.welcome {
+  padding: 15px;
+}
+.welcome-title {
+  color: #8f5849;
+  margin-bottom: 0px;
+}
+.card-seccion {
+  padding: 20px;
+}
+.phone {
+  margin-top: 0px;
+}
+.email:hover,
+.email:visited:hover {
+  background-color: #f0f8ff;
+}
+.password:hover,
+.password:visited:hover {
+  background-color: #f0f8ff;
+}
+h3 {
+  color: #404040;
+}
+.seccion-login {
+  width: 350px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid #004182;
+  background: #0a66c2;
+}
+.seccion-login a {
+  color: white;
+}
+.botom-google a {
+  color: #404040;
+}
+.olvidado {
+  color: #004182;
+  cursor: pointer;
+}
+hr {
+  border-color: #404040;
+  width: 85%;
+}
+.seccion-card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.google {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.botom-google {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid #004182;
+  background: white;
+}
+.botom-google:hover,
+.botom-google:visited:hover {
+  background-color: #f5f5f5;
+}
+.seccion-login-new {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid #004182;
+  background: white;
+}
+.seccion-login-new a {
+  color: #404040;
+}
+.seccion-login-new:hover,
+.seccion-login-new:visited:hover {
+  background-color: #f5f5f5;
+}
+.main-image {
+  display: flex;
+  justify-content: center;
+}
+.lapto {
+  width: 300px;
+}
+.container-1 {
+  padding: 35px;
+}
+.conatiner-main {
+  border: 1px solid black;
+}
+.main-i {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.main-i a {
+  font-size: 60px;
+}
+.email-i {
+  width: 320px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+}
+.password-i {
+  width: 320px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+}
+.button-i {
+  width: 320px;
+  margin-bottom: 10px;
+  background: #4bb4f8;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.seccion-instagram {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card-seccion-i {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.p-seccion {
+  margin-bottom: 0px;
+  color: #60749d;
+  font-weight: bold;
+  cursor: pointer;
+}
+.p-olvidado {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.seccion-new {
+  padding: 50px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+.registrate {
+  color: #60749d;
+  font-weight: bold;
+  cursor: pointer;
+}
+.descargar {
+  justify-content: center;
+  display: flex;
+}
+.img-store {
+  width: 100px;
+  margin-right: 55px;
+  margin-left: 55px;
+  cursor: pointer;
+}
+.img-microsoft {
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+}
+.card-app {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.img-main-t {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+.twitter {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+.title-t {
+  display: flex;
+  justify-content: center;
+}
+.seccion-t {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.button-goggle {
+  margin-bottom: 10px;
+  width: 320px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid darkgrey;
+  background: white;
+  cursor: pointer;
+}
+.button-apple {
+  justify-content: start;
+  display: flex;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 40px;
+  align-self: center;
+  border-radius: 150px;
+  border-style: solid;
+  border: 1px solid darkgrey;
+  background: white;
+  align-self: center;
+  cursor: pointer;
+}
+.button-apple :hover,
+.button-apple :visited:hover {
+  background-color: #E6E7E7;
+  width: 100%;
+  margin-left: 0px!important;
+  border-radius: 10px;
+
+}
+.b-apple {
+  display: flex;
+  color: black;
+  margin-left: 48px;
+  text-decoration: none;
+  align-items: center;
+}
+.line-t {
+  margin-bottom: 30px;
+  background-color: #E6E7E7;
+  color: #E6E7E7;
+}
+.register-t {
+  display: flex;
+  justify-content: center;
+}
+.enter-t {
+  width: 320px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+}
+.google-2 {
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.botom-google-2 {
+  margin-bottom: 10px;
+  width: 320px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid darkgrey;
+  background: black;
+  color: white
+}
+.seccion-2{
+  color: white;
+  text-decoration: none;
+}
+
+.botom-google-2:hover,
+.botom-google-2:visited:hover {
+  background: #272C30;
+
+}
+.seccion-login-new-2 {
+  margin-bottom: 10px;
+  width: 320px;
+  height: 40px;
+  align-self: center;
+  border-radius: 100px;
+  border-style: solid;
+  border: 1px solid darkgrey;
+  background: white;
+}
+.seccion-login-new-2:hover,
+.seccion-login-new-2:visited:hover {
+  background-color: #E6E7E7;
+}
+.next-button{
+  color: white;
+  text-decoration: none;
+}
+.forget-button{
+  color: #272C30;
+  text-decoration: none;
+}
+.register {
+  display: flex;
+  justify-content: center;
+}
+.register-new{
+  margin-left: 5px;
+  color: #004182;
+  cursor: pointer;
+}
+footer {
+  width: 100vw;
+  background-color: #008B8B;
+  margin-top: 40px;
+  padding-top: 0.5vw;
+  box-shadow: 0.26vw 0.26vw 0.26vw 0.26vw #1d3557;
+}
+.date {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.date p {
+  margin-bottom: 0.5vw;
+}
+.dateActual {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 0.8vw;
+}
+.dateActual p {
+  color: yellow;
+  
+}
+.grid-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+
