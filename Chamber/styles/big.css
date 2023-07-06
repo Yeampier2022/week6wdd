@@ -1,4 +1,3 @@
-
 :root {
   --bg-color: #fff9eb;
 }
@@ -217,5 +216,18 @@
   .directory-cards section {
     width: 400px;
     height: 250px;
+  }
+  #welcome {
+    display: none;
+  }
+  #medium {
+    display: none;
+  }
+  #large {
+    position: absolute;
+    font-size: 1.8em;
+    top: 10%;
+    width: fit-content;
+    color: #264a41;
   }
 }

@@ -273,6 +273,11 @@ h2 {
 h1 {
   font-size: 1.5em;
 }
+.image-container{
+  position: relative;
+  display: flex;
+  justify-content: center;  
+}
 
 #stats {
   text-align: center;
@@ -657,6 +662,12 @@ li {
     text-align: center;
   }
   #j{
+    display: none;
+  }
+  #medium {
+    display: none;
+  }
+  #large {
     display: none;
   }
 }
